@@ -5,6 +5,9 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 /*  Mobile  */
 
@@ -49,13 +52,40 @@ header {
     font-size: 1.1em;
 }
 
+.socials ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.socials ul li {
+    display: inline-block;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: none;
+}
+
+.socials ul li a {
+    text-decoration: none;
+    color: rgb(235, 235, 235);
+}
+
+.socials ul li a:hover {
+    color: rgba(235, 235, 235, 0.627);
+    transition: 0.5s;
+}
+
+.intro {
+    margin: 20px 0px;
+}
 
 nav {
     position: sticky;
     top: 0;
     overflow: auto;
     backdrop-filter: blur(2.5px);
-    background-color: rgba(66, 66, 66, 0.048);
+    background-color: rgba(66, 66, 66, 0.205);
+    margin-bottom: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 nav ul {
@@ -116,8 +146,6 @@ nav ul li a:hover {
     border-radius: 15px;
     padding: 2%;
 }
-
-
 
 .homebox2 {
     width: 1400px;
@@ -218,5 +246,26 @@ nav ul li a:hover {
 
 .gototop:hover {
   background-color: rgb(69, 69, 204);
+}
+
+.resumeContainer {
+    background-color: rgb(90, 38, 38);
+    margin: 0% 30%;
+    padding: 2%;
+}
+
+.resumeContainer ul li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.resumePDF {
+    width: 60px;
+    height: 60px;
+}
+
+.resumeWord {
+    width: 75px;
+    height: 51px;
 }
 
