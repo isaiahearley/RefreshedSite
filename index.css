@@ -152,7 +152,7 @@ nav ul li a:hover {
     width: 1400px;
     background-color: rgb(15, 15, 71);
     border-radius: 40px;
-    transition: 0.3s;
+    transition: 0.2s;
     line-height: 1.4em;
 }
 
@@ -160,6 +160,7 @@ nav ul li a:hover {
     background-color: rgb(13, 13, 114);
     line-height: 2em;
     color: rgb(235, 235, 235);
+    transition: 0.2s;
 }
 
 #Projects {
@@ -198,6 +199,7 @@ nav ul li a:hover {
     height: 500px;
 }
 
+
 .projecthook {
     border: 2px solid white;
     width: 50%;
@@ -206,8 +208,18 @@ nav ul li a:hover {
 .projectdesc {
     border: 2px solid white;
     width: 50%;
-    padding: 17% 0;
+    padding: 140px 0px;
     text-align: left;
+    color:rgba(41, 123, 196, 0);
+    transition: 1s;
+    border-radius: 15px;
+    background-color: rgb(77, 68, 11);
+    line-height: 2;
+}
+
+.projectdesc:hover {
+    color:rgb(255, 255, 255);
+    transition: 1s;
 }
 
 .projectbox p {
