@@ -83,29 +83,38 @@ header {
 
 .important {
     text-decoration: underline;
-    color:rgb(135, 135, 240);
+    color:rgb(158, 158, 255);
     font-size: 1.1em;
 }
 
-.socials ul {
+.socials {
     display: flex;
     justify-content: space-evenly;
-}
-.socials ul li {
-    display: inline-block;
     font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.sociallink {
+    padding: 1%;
+    color: white;
     text-align: center;
-    text-decoration: none;
-}
-
-.socials ul li a {
-    text-decoration: none;
-    color: rgb(235, 235, 235);
-}
-
-.socials ul li a:hover {
-    color: rgba(235, 235, 235, 0.627);
+    margin: 0% 1%;
+    border-image-source: linear-gradient(90deg, red, blue);
+    border-inline-start: 10px solid;
+    border-block-start: 10px solid;
+    border-image-slice: 1;
+    padding: 10px;
     transition: 0.5s;
+}
+
+.sociallink:hover {
+    border-image-source: linear-gradient(45deg, blue, yellow);
+    transition: 0.5s;
+}
+
+.socialimg {
+    width: 350px;
+    height: 350px;
 }
 
 .intro {
@@ -212,7 +221,7 @@ main {
 }
 
 #Projects:hover {
-    background-color: rgba(75, 159, 53, 0.836);
+    background-color: rgba(67, 142, 49, 0.836);
 }
 
 .projects1 {
