@@ -17,9 +17,19 @@ a {
     text-decoration: none;
 }
 
+.temp {
+    color: white;
+    text-align: center;
+    margin-top: 300px;
+    font-size: 3em;
+}
+
+.highlight {
+    background-color: rgb(159, 159, 55);
+}
 
 /*  Mobile  */
-@media all and (min-width: 280px) and (max-width: 558px){
+@media all and (max-width: 558px){
 .mobile {
     display: block;
 }
@@ -29,17 +39,21 @@ a {
 
 
 
+
 }
 
 /*  Tablet   */
 @media all and (min-width: 559px) and (max-width: 1122px){
-.tablet, .desktop {
+.tablet {
     display: block;
 }
 
-.mobile {
+
+
+.mobile, .desktop {
     display: none;
 }
+
 
 
 }
@@ -103,13 +117,14 @@ header {
     border-inline-start: 10px solid;
     border-block-start: 10px solid;
     border-image-slice: 1;
-    padding: 10px;
-    transition: 0.5s;
+    padding: 5px;
+    transition: 0.4s;
+    border-radius: 15px;
 }
 
 .sociallink:hover {
     border-image-source: linear-gradient(45deg, blue, yellow);
-    transition: 0.5s;
+    transition: 0.4s;
 }
 
 .socialimg {
