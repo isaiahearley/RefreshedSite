@@ -20,14 +20,17 @@
 <body>
 
     <p class="mobile temp"><span class="highlight">Mobile view</span> is still undergoing development! &#128532;</p>
-    <p class="tablet temp"><span class="highlight">Tablet view</span> is still undergoing development! &#128532;</p>
+   
 
-    <header class="desktop">
+    <div class="construction tablet">
+        <p><span class="highlight">Tablet view</span>  is still undergoing development! &#128532;</p>
+    </div>
+
+    <header>
         <h1>Welcome to my website! &#128075;</h1>
-    
     </header>
 
-    <nav class="desktop">
+    <nav>
         <ul>
             <li><a href="#Home">Home</a></li>
             <li><a href="#Projects">Projects</a></li>
@@ -36,7 +39,7 @@
     </nav>
 
 <!-- Home, Projects, Contact-->
-    <main class="desktop">
+    <main>
 
         <div id="Home">
 
@@ -49,7 +52,7 @@
                 </div>
 
                 <div class="homebox2">
-                    <p class="description">
+                    <p class="description desktop">
                         I've had several careers throughout the past 4 years which have helped me gain a variety of skills including <span class="important">customer service, project planning, troubleshooting hardware + software, and scripting.</span> I started my career
                         at palomar college where I was given the opportunity to participate in work-study and earn income while being in school full-time. Although my time with Palomar College lasted for 1 year I was able to get valuable 
                         skills in <span class="important">communication</span> and <span class="important">staying organized</span> at work. Afterwards I worked at Walmart as a sales associate and climbed to a variety of positions within the same store with my last position there being a merchandise 
@@ -60,6 +63,16 @@
                         my current  position, <span class="important">"Windows System Administrator".</span> In this role I've gained a tremendous amount of scripting knowledge, primarily with the PowerShell language, and have created scripts to automate our
                         workflow. Some notable contributions I have made so far include: 
                     </p>
+                    <ul class="description tablet">
+                        <h2>Attained Skillset</h2>
+                        <li class="important">Hardware + Software troubleshooting</li>
+                        <li class="important">Scripting with Powershell and Python</li>
+                        <li class="important">Created standard operating procedures [sops] on lesser known software</li>
+                        <li class="important">Systems patching</li>
+                        <li class="important">ACAS and STIG compliance</li>
+                        <li class="important">DNS / IP configuration</li>
+                        <li class="important"></li>
+                    </ul>
                 </div>
 
             </div>
@@ -70,18 +83,18 @@
                     <h5><i>San Diego, California</i></h5>
 
                     <ul class="description">
-                        <li>
+                        <li class="spaced-li">
                             Developed a script to process <span class="important">unique and large datasets</span> that finds the computer name, primary user, manufacturer, device model, and BIOS version of machines connected to the network, which later gives the 
                             option to output a document that can be used to present data and make better informed decisions.  
                         </li>
 
-                        <li>
+                        <li class="spaced-li">
                             Created a solution that automatically resolves a Microsoft Teams <a class="important" title="This link shows the vulnerability that I helped resolve!" href="https://www.tenable.com/plugins/nessus/175408" 
                             target="_blank">(Plugin 175408)</a> finding by detecting the file version of Teams in every user profile on an individual machine and removing the appropriate path from the machine, forcing 
                             user's to update the software and remove paths that user's would otherwise not have access to.
                         </li> 
 
-                        <li>
+                        <li class="spaced-li">
                             Created a script that automatically <span class="important">pulls the latest version of a selected software in a network drive by typing the name of the software</span>, which saves time for system administrators by 
                             preventing them from endlessly searching various directories for the newest version of a software.
                         </li>       
@@ -92,7 +105,7 @@
 
         </div>    
 
-        <div id="Projects">
+        <div class="desktop" id="Projects">
             <h1 class="Projects">Projects</h1>
 
             <div class="projects1">
@@ -265,7 +278,7 @@
 
 
         <!-- idk lol -->
-        <div id="Contact">
+        <div class="desktop" id="Contact">
             <h1>Contact</h1>
             <p class="intro">Below you can find my social media to keep up with my work</p>
 
